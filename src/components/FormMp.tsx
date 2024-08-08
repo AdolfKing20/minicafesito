@@ -9,7 +9,7 @@ function FormMp() {
             className="w-full max-w-96 bg-[#ccc] p-4 border text-black flex flex-col m-auto"
         >
             <label htmlFor="monto">Ingresar Monto</label>
-            <input type="number" placeholder="Ingresar monto" name="monto" value={1000}/>
+            <input type="number" placeholder="Ingresar monto" name="monto"/>
             
             <label htmlFor="mensaje">Ingresa un mensaje</label>
             <textarea name="mensaje" />
