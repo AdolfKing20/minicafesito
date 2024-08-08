@@ -17,5 +17,5 @@ export async function donate(formData: FormData) {
         ],
       },
     });
-    redirect(preference.sandbox_init_point!);
+    redirect(preference.init_point!);
 }
